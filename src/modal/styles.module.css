@@ -1,0 +1,25 @@
+.modalContainerStyles {
+  position: fixed;
+  inset: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+.modalContentStyles {
+  position: absolute;
+  inset: 50% 50%;
+  transform: translate(-50%, -50%);
+  max-width: 300px;
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* second modal styles */
+.secondModalStyles {
+  background-color: red;
+  position: absolute;
+  left: auto;
+}
